@@ -185,6 +185,7 @@ function cart_realod(cart_ids) {
             let idx = cart.indexOf(item.id)
             cart.splice(idx, 1)
             reload(arr)
+            h1.innerHTML =`Cart: ${cart.length} `
             cart_item.remove()
         }
         let saleprice = item.price
