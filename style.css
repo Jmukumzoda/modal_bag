@@ -4,7 +4,9 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-
+.body1 {
+	overflow: hidden;
+}
 .container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -140,6 +142,20 @@ center {
 	font-weight: 600;
 	line-height: normal;
 }
+
+.item .info button:hover {
+	border-radius: 10px;
+	border: 1px solid #1f86ff;
+	background: #1f86ff;
+	color: #fff;
+	text-align: center;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
 .item:hover {
 	box-shadow: 0px 0px 3px #000;
 }
@@ -168,19 +184,19 @@ b {
 }
 
 .menu {
-	width: 50%;
-	height: 100vh;
-	position: fixed;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
     top: 0px;
     right: -100%;
     bottom: 0px;
-	background-color: rgba(0, 0, 0, 0.5);
-	backdrop-filter: blur(10px);
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	transition: .8s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: .8s ease;
 }
 
 .menu h2 {
@@ -195,6 +211,7 @@ b {
 	border-radius: 12px;
 	overflow: hidden;
 }
+
 .menu .item-container::after {
 	content: "";
 	width: 100%;

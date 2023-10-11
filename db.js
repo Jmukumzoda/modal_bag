@@ -1,3 +1,5 @@
+// Покажите товары по следующему массиву
+
 let arr = [{
     "id": 1,
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -7,7 +9,7 @@ let arr = [{
     "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
     "rating": {
         "rate": 3.9,
-        "count": 120
+        "count": 4
     }
 }, {
     "id": 2,

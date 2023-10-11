@@ -42,6 +42,7 @@
             padding-bottom: 200px;
         }
 
+
         .cart-item {
             width: 100%;
             display: flex;
@@ -135,30 +136,21 @@
             cursor: pointer;
         }
 
-        .sale {
-            display: flex;
-            position: relative;
-            top: 10px;
-            left: 200px;
-        }
-
-        .red {
-            background-color: red;
-        }
-
         .exet_button {
             position: relative;
             top: -50px;
             left: 90%;
             width: 30px;
         }
+
+
     </style>
 
     <div class="menu">
         <h2>Корзина</h2>
         <img class="exet_button" src="./icons/images.png" alt="">
-
         <div class="item-container">
+            <p class="p_price"></p>
             <div class="scrollable">
             </div>
         </div>
@@ -179,7 +171,6 @@
 
     <script src="./db.js"></script>
     <script src="./index.js"></script>
-
 </body>
 
 </html>
